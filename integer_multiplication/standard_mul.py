@@ -7,6 +7,7 @@ def num_list(num):
 	while num>0:
 		num_l.append(num%10)
 		num=num//10
+	num_l.reverse()
 	return num_l
 
 # convert lists of single digit integers to number
